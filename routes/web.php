@@ -20,6 +20,7 @@ Route::group(['middleware' => 'auth'], function () {
         Route::get('/user/get/{id}','UserController@getOne');
         Route::put('/user/update/{id}','UserController@update');
         Route::delete('/user/delete/{id}', 'UserController@delete');
+        
         //TAHUN ANGGARAN
         Route::get('/tahun-anggaran', function () {
             return view('pages.admin.tahun_anggaran');
@@ -29,6 +30,46 @@ Route::group(['middleware' => 'auth'], function () {
         Route::put('/tahun-anggaran/update/{id}', 'TahunAnggaranController@update');
         Route::get('/tahun-anggaran/get/{id}','TahunAnggaranController@getOne');
         Route::put('/tahun-anggaran/aktif-toggle', 'TahunAnggaranController@aktifToggle');
+
+        // invoice
+        Route::get('/invoice', function(){
+            return view('pages.admin.invoice');
+        });
+        Route::get('/invoice/tambah', function(){
+            return view('pages.admin.invoice_tambah');
+        });
+
+        // BC 2.0
+        Route::get('/bc_20', function(){
+            return view('pages.admin.bc_20');
+        });
+        Route::get('/bc_20/tambah', function(){
+            return view('pages.admin.bc_20_tambah');
+        });
+
+        // Bukti Terima Barang
+        Route::get('/bukti_terima_barang', function(){
+            return view('pages.admin.bukti_terima_barang');
+        });
+        Route::get('/bukti_terima_barang/tambah', function(){
+            return view('pages.admin.bukti_terima_barang_tambah');
+        });
+
+        // PURCHASE ORDER
+        Route::get('/purchase_order', function(){
+            return view('pages.admin.purchase_order');
+        });
+        Route::get('/purchase_order/tambah', function(){
+            return view('pages.admin.purchase_order_tambah');
+        });
+
+        // BILL OF MATERIAL
+        Route::get('/bill_of_material', function(){
+            return view('pages.admin.bill_of_material');
+        });
+        Route::get('/bill_of_material/tambah', function(){
+            return view('pages.admin.bill_of_material_tambah');
+        });
 
         //negara
         Route::get('/negara', function () {

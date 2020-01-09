@@ -9,6 +9,17 @@
 <link rel="stylesheet" href="{{ asset('vendor/linearicons/style.css') }}">
 <!-- <link rel="stylesheet" href="{{ asset('vendor/chartist/css/chartist-custom.css') }}"> -->
 
+<!-- WIZARD -->
+<link rel="stylesheet" href="{{ asset('vendor/parsleyjs/css/parsley.css') }}">
+<link rel="stylesheet" href="{{ asset('vendor/sweetalert2/sweetalert2.css') }}">
+
+<!-- SELECT2 -->
+<link rel="stylesheet" href="{{ asset('vendor/select2/css/select2.min.css') }}">
+
+<!-- FORM INPUTS -->
+<link rel="stylesheet" href="{{ asset('vendor/jquery-uii/themes/base/jquery-ui.min.css') }}">
+<link rel="stylesheet" href="{{ asset('vendor/switchery/switchery.min.css') }}">
+
 {{-- SWEETALERT CSS --}}
 <link rel="stylesheet" href="{{ asset('vendor/sweetalert/sweetalert.css') }}">
 

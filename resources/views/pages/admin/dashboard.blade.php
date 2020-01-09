@@ -14,7 +14,14 @@
   <div class="main-content">
       <div class="container-fluid">
         <div class="jumbotron">
-          <h1>Selamat Datang DiHalaman Dashboard Admin DIPA PAPUA</h1>
+          <h1>
+          	Selamat Datang
+	          	<br>
+	          		Di Halaman Dashboard Admin
+	          	</br>
+          	PT SEIDENSTICKER INDOESIA
+          </h1>
+
         </div>
       </div>
   </div>

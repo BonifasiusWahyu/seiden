@@ -15,7 +15,7 @@
 					<div class="left">
 						<div class="content">
 							<div class="header">
-								<div class="logo text-center"><img src="{{ asset('img/seiden2.png') }}" alt="Klorofil Logo" style="opacity:0.7"></div>
+								<div class="logo text-center"><img src="{{ asset('img/logoseiden.png') }}" alt="Klorofil Logo" style="opacity:0.7"></div>
 							</div>
 							<form class="form-auth-small" action="{{ route('login') }}" method="POST">
 								{{ csrf_field() }}

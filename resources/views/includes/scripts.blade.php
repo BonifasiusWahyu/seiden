@@ -6,7 +6,18 @@
 {{-- SWEETALERT JS --}}
 <script src="{{ asset('vendor/sweetalert/sweetalert.min.js') }}"></script>
 
- 
+<!-- wizard -->
+<script src="{{ asset('vendor/fuelux/wizard/wizard.js') }}"></script>
+<script src="{{ asset('vendor/parsleyjs/js/parsley.min.js') }}"></script>
+<script src="{{ asset('vendor/ui/ui-wizard.js') }}"></script>
+
+<!-- select2 -->
+<script src="{{ asset('vendor/select2/js/select2.min.js') }}"></script>
+<script src="{{ asset('vendor/forms/forms-select2.js') }}"></script>
+
+<!-- repeater -->
+<script src="{{ asset('vendor/repeater/repeater.js') }}"></script>
+
 <script>
 $(function(){
     var param = window.location.href.split("/");
